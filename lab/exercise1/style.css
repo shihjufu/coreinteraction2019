@@ -1,0 +1,58 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: grey;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* # for id tag . for class*/
+
+.example1{
+   font-size: 25px;
+   background-color: white;
+   height: 80px;
+   width: 400px;
+   box-shadow: 10px 5px 5px red;
+   margin: 30px 30px 30px 30px;
+}
+
+.example2{
+   font-size: 25px;
+   background-color: white;
+   height: 80px;
+   width: 400px;
+   box-shadow: 60px -16px teal;
+   margin: 30px 30px 30px 30px;
+}
+
+.example3{
+   font-size: 25px;
+   background-color: white;
+   height: 80px;
+   width: 400px;
+   box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+   margin: 30px 30px 30px 30px;
+}
+
+.example4{
+   font-size: 25px;
+   background-color: white;
+   height: 80px;
+   width: 400px;
+   box-shadow: inset 5em 1em gold;
+   margin: 30px 30px 30px 30px;
+}
+
+.example5{
+   font-size: 25px;
+   background-color: white;
+   height: 80px;
+   width: 400px;
+   box-shadow: 3px 3px red, -1em 0 .4em olive;
+   margin: 30px 30px 30px 30px;
+}
+

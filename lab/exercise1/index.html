@@ -4,14 +4,41 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, user-scalable=no">
    <title>Box-Shadow</title>
+   <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
    <h1>Box-Shadow</h1>
    <div class="rule">
-      <br>
-      <p>The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radii, and color.</p>
-      <br>
-      <p>The box-shadow property enables you to cast a drop shadow from the frame of almost any element.If a border-radius is specified on the element with a box shadow, the box shadow takes on the same rounded corners.The z-ordering of multiple box shadows is the same as multiple text shadows (the first specified shadow is on top).</p>
+      <h2>What is box-shadow?</h2>
+
+      <p>Box-shadow is a <bold>CSS Property</bold>  that adds shadow effects around an element's frame. 
+
+         <li> Multipule effects can be seperated by commas.</li>
+         <li> Described by X and Y offsets relative to the element.</li>
+         <li> Allows you to cast drop shadows of the frame of almost any element.</li>
+         <li> Takes the shape of border-radius if it is specified on the element with box-shadow. </li>
+         <li> The z-ordering of multiple box shadows is the same as multiple text shadows (the first specified shadow is on top).</li>
+
+      <div class="example1">
+         box-shadow: 10px 5px 5px red;
+      </div>
+
+      <div class="example2">
+         box-shadow: 60px -16px teal;
+      </div>
+
+      <div class="example3">
+         box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+      </div>
+
+      <div class="example4">
+         box-shadow: inset 5em 1em gold;
+      </div>
+
+      <div class="example5">
+         box-shadow: 3px 3px red, -1em 0 .4em olive;
+      </div>
+
    </div>
 
 </body>
