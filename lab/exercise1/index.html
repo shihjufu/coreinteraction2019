@@ -8,39 +8,59 @@
 </head>
 <body>
    <h1>Box-Shadow</h1>
-   <div class="rule">
+   <div id="rule">
       <h2>What is box-shadow?</h2>
 
       <p>Box-shadow is a <bold>CSS Property</bold>  that adds shadow effects around an element's frame. 
+         attaches one or more shadows to an element.</p>
 
          <li> Multipule effects can be seperated by commas.</li>
          <li> Described by X and Y offsets relative to the element.</li>
          <li> Allows you to cast drop shadows of the frame of almost any element.</li>
          <li> Takes the shape of border-radius if it is specified on the element with box-shadow. </li>
-         <li> The z-ordering of multiple box shadows is the same as multiple text shadows (the first specified shadow is on top).</li>
-
-      <div class="example1">
-         box-shadow: 10px 5px 5px red;
-      </div>
-
-      <div class="example2">
-         box-shadow: 60px -16px teal;
-      </div>
-
-      <div class="example3">
-         box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-      </div>
-
-      <div class="example4">
-         box-shadow: inset 5em 1em gold;
-      </div>
-
-      <div class="example5">
-         box-shadow: 3px 3px red, -1em 0 .4em olive;
-      </div>
-
+         <li> The z-ordering of multiple box shadows is the same as multiple text shadows (the first specified shadow is on top).</li><br>
+         <li> box-shadow:h-offset v-offset blur spread color inset;</li><br>
+         <li> h-offset - Required. The horizontal offset of the shadow. A positive value puts the shadow on the right side of the box, a negative value puts the shadow on the left side of the box</li>
+         <li> v-offset - Required. The vertical offset of the shadow. A positive value puts the shadow below the box, a negative value puts the shadow above the box .</li>
+         <li> blur - Optional. The blur radius. The higher the number, the more blurred the shadow.</li>
+         <li> spread - Optional. The spread radius. A positive value increases the size of the shadow, a negative value decreases the size of the shadow.</li>
+         <li> color - Optional. The color of the shadow. The default value is the text color.</li>
+         <li> inset - Optional. Changes the shadow from an outer shadow (outset) to an inner shadow</li>
    </div>
 
+   <div id= "examples">
+      <div class="Rexample">
+         <p><bold>box-shadow:h-offset v-offset blur spread color inset;</bold></p>
+      </div>
+
+      <div class="Rexample1">
+         <p>box-shadow: 10px 5px 5px red;</p>
+      </div>
+
+      <div class="Rexample2">
+         <p>box-shadow: 60px -16px teal;</p>
+      </div>
+
+      <div class="Rexample3">
+         <p>box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);</p>
+      </div>
+
+      <div class="Rexample4">
+         <p>box-shadow: inset 5em 1em gold;</p>
+      </div>
+
+      <div class="Rexample5">
+         <p>box-shadow: 3px 3px red, -1em 0 .4em olive;</p>
+      </div>
+   </div>
+
+   <div class="realexamples">
+      <div class="Eexample">
+         <img src="coreinteraction1.png">
+         <img src="coreinteraction2.png">
+         <p>Website:<a href="https://coreinteraction2019.com"> Core Interaction 2019</a></p>
+      </div>
+   </div>
 </body>
 </html>
 

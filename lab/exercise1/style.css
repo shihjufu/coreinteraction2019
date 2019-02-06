@@ -1,58 +1,139 @@
-html, body {
+html{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: grey;
 }
 
-*{
+body{
+   width: 850px;
+   height: 100%;
+   margin: 60px 25% 0 25%;
+   float: left;
+   background-color: #f1f1f1;
+}
+
+* {
     box-sizing: border-box;
+}
+
+h1 {
+   margin: 0 0 20px 30px;
 }
 
 /* # for id tag . for class*/
 
-.example1{
+#rule {
+   max-width: 650px;
+   line-height: 23px;
+   box-shadow: 10px 5px 5px silver;
+   margin: 10px 10px 90px 0px;
+   padding: 10px 30px 20px 30px;
+}
+
+#rule:hover{
+   max-width: 650px;
+   line-height: 23px;
+   box-shadow: 10px 5px 33px silver;
+   margin: 10px 10px 90px 0px;
+   padding: 10px 30px 20px 30px;
+}
+
+.Rexample{
+   font-size: 20px;
+   font-style: bold;
+   background-color: white;
+   height: 80px;
+   width: 500px;
+   margin: 30px 30px 30px 30px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
+}
+
+.Rexample:hover{
+   font-size: 20px;
+   font-style: bold;
+   background-color: white;
+   height: 80px;
+   width: 500px;
+   margin: 30px 30px 30px 30px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
+   box-shadow: 11px 11px 50px 5px yellow;
+}
+
+.Rexample1{
    font-size: 25px;
    background-color: white;
    height: 80px;
-   width: 400px;
+   width: 500px;
    box-shadow: 10px 5px 5px red;
    margin: 30px 30px 30px 30px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
 }
 
-.example2{
+
+
+.Rexample2{
    font-size: 25px;
    background-color: white;
    height: 80px;
-   width: 400px;
+   width: 500px;
    box-shadow: 60px -16px teal;
    margin: 30px 30px 30px 30px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
 }
 
-.example3{
-   font-size: 25px;
+.Rexample3{
+   font-size: 22px;
    background-color: white;
    height: 80px;
-   width: 400px;
+   width: 500px;
    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
    margin: 30px 30px 30px 30px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
 }
 
-.example4{
+.Rexample4{
    font-size: 25px;
    background-color: white;
    height: 80px;
-   width: 400px;
+   width: 500px;
    box-shadow: inset 5em 1em gold;
    margin: 30px 30px 30px 30px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
 }
 
-.example5{
+.Rexample5{
    font-size: 25px;
    background-color: white;
    height: 80px;
-   width: 400px;
+   width: 500px;
    box-shadow: 3px 3px red, -1em 0 .4em olive;
    margin: 30px 30px 30px 30px;
+   text-align: center;
+   padding: 3px 3px 3px 3px;
+}
+
+.Eexample {
+   margin: 50px 20px 20px 20px;
+}
+
+.Eexample img{
+   max-height: 300px;
+   max-width: 300px;
+}
+
+.Eexample img:hover{
+   max-height: 500px;
+   max-width: 500px;
+}
+
+
+.Eexample p{
+   font-size: 16pt;
 }
 
