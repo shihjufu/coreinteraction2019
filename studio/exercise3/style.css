@@ -1,0 +1,124 @@
+html, body {
+	width: 100%;
+    height: 90%;
+    margin: 0;
+    background: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+	margin-top: 10vw;
+	margin-left: 30vw;
+	height: 30vw;
+	width: 40vw;
+	background: black;
+	border: solid white 1vw;
+	border-radius: 50%;
+	box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 5px #ff0080, 0 0 50px #ff0080, 0 0 5px #ff0080, 0 0 5px white;
+}
+
+#s1 {
+	position: relative;
+    width: 15vw;
+    height: 1vw;
+    background: white;
+    top: 6vw;
+    left: 12vw;
+    border-radius: 30%;
+}
+
+#s2 {
+	position: relative;
+    width: 15vw;
+    height: 1vw;
+    background: white;
+     top: 12vw;
+    left: 12vw;
+    border-radius: 30%;
+}
+
+#s3 {
+	position: relative;
+    width: 15vw;
+    height: 1vw;
+    background: white;
+     top: 18vw;
+    left: 12vw;
+    border-radius: 30%;
+}
+
+#s4 {
+	position: relative;
+    width: 1vw;
+    height: 7vw;
+    background: white;
+     top: 3.5vw;
+    left: 11vw;
+    border-radius: 30%;
+}
+
+#s5 {
+	position: relative;
+    width: 1vw;
+    height: 7vw;
+    background: white;
+     top: 3.5vw;
+    left: 27vw;
+    border-radius: 30%;
+}
+
+#s6 {
+	position: relative;
+    width: 1vw;
+    height: 3vw;
+    background: white;
+     top: 0.5vw;
+    left: 11vw;
+    border-radius: 30%;
+}
+
+#s7 {
+	position: relative;
+    width: 1vw;
+    height: 3vw;
+    background: white;
+     top: -13.5vw;
+    left: 27vw;
+    border-radius: 30%;
+}
+
+#f1 {
+	position: relative;
+    width: 1vw;
+    height: 8vw;
+    background: white;
+    top: -13vw;
+    left: 16vw;
+    border-radius: 30%;
+}
+
+#f2 {
+	position: relative;
+    width: 7vw;
+    height: 1vw;
+    background: white;
+     top: -22vw;
+    left: 16vw;
+    border-radius: 30%;
+}
+
+#f2 {
+	position: relative;
+    width: 7vw;
+    height: 1vw;
+    background: white;
+     top: -22vw;
+    left: 16vw;
+    border-radius: 30%;
+}
+
+
+
