@@ -2,20 +2,73 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
    <title>
       Shih-Ju Fu
    </title>
+   <style>
+   html, body {
+   		width: 100%;
+  		height: 100%;
+  		margin: 0;
+  		font-family: Helvetica, sans-serif;
+	}	
 
+	* {
+  		box-sizing: border-box;
+	}
 
+   header {
+   		font-size: 95pt;
+   		text-align: center;
+   	} 
 
+  	main {
+  		width: 100%;
+  		height: 90%;
+  		margin: 0;
+  		background-color: white;
+  		text-align: left;
+	}	
+
+    main div#studio {
+  		background: white;
+ 		height: 100%;
+  		width: 50%;
+  		float: left;
+  		padding: 18% 0 0 15%;
+	}
+
+    main div#lab {
+  		background: white;
+  		height: 100%;
+  		width: 50%;
+ 		float: left;
+ 		padding: 18% 0 0 20%;
+	}
+
+	main div#studio a.studio {
+		color: black;
+  		font-size: 80pt;
+  		text-decoration: none;
+	}
+
+	main div#lab a.lab {
+		color: black;
+  		font-size: 80pt;
+  		text-decoration: none;
+	}
+
+   </style>
 </head>
 
 <body>
-   <h1> Core Interaction 2019 </h1>
-   <a href="studio/index.html">Core Studio</a>
-   <br>
-   <a href="lab/index.html">Core Lab</a>
-   <br>
+   <header>Core Interaction</header>
+   <main>
+   		<div id="studio"><a class="studio" href="studio/index.html">Studio</a></div>
+   		<div id="lab"><a class="lab" href="lab/index.html">Lab</a></div>
+   </main>
 </body>
 
 </html>
