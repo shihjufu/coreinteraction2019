@@ -39,19 +39,18 @@ nav {
   left: 0;
   right: 0;
   height: 65px;
-  padding-left: 22%;
-  padding-right: 22%;
+  display: flex;
 }
 
-
+nav section {
+  margin: auto;
+}
 
 nav a{
   text-decoration: none;
-  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 22px 6%;
   text-decoration: none;
   font-size: 17px;
   letter-spacing: 2px;
@@ -61,6 +60,21 @@ nav a:hover {
   color: black;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 1400px) {
+
+  nav {
+  flex-direction: column;
+  height: 120px;
+  }
+
+  nav section{
+  width: 100%;
+  }
+
+  main img{
+  width: 70vw;
+  height: 15.5vw;
+  }
+
 
 }
