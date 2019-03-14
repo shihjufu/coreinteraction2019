@@ -1,0 +1,38 @@
+html, body {
+	width: 100%;
+    height: 100%;
+    margin: 0;
+		background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.left {
+	float: left;
+	height: 100vh;
+	width: 50vw;
+}
+
+div.left img {
+	position: absolute;
+	margin-top: 15vh;
+	float: left;
+	height: 80vh;
+	width: 70vw;
+}
+
+div.right {
+	float: left;
+	height: 100vh;
+	width: 50vw;
+}
+
+div.right p {
+	margin-top: 30vh;
+	font-family: alternate-gothic-no-2-d, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80pt;
+}
