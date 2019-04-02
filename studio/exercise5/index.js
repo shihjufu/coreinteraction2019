@@ -59,6 +59,7 @@ $("#circle1").css("top",topCss1)
 $("#circle1").css("left",leftCss1)
 $("#circle1").css("background-color",colors[randomColor])
 $("#circle1").css("height",heightCss1)
+$("#circle1").css("width",widthCss1)
 
 $("#circle2").css("top",topCss2)
 $("#circle2").css("left",leftCss2)
