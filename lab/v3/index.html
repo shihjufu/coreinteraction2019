@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+<title>Dog Lost and Found</title>
+<style>
+
+html,
+body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		font-family: 'VT323', monospace;
+}
+
+body {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+}
+
+* {
+	box-sizing: border-box;
+	min-width: 0;
+}
+
+aside {
+		width: 30%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		background: white;
+}
+
+aside section#top {
+			width: 100%;
+			height: 60%;
+			border: solid black 10pt;
+		}
+
+aside section#top img{
+			width: 100%;
+			height: 100%;
+		}
+
+aside section#middle {
+			width: 100%;
+			height: 30%;
+			border: solid black 10pt;
+			font-family: 'VT323', monospace;
+			background: #1A31FE;
+			text-align: left;
+			padding-left: 2vw;
+			font-size: 25pt;
+			color: black;
+			font-size: 2vw;
+		}
+
+aside section#middle p {
+	text-align: center;
+	margin: 0;
+	padding-top: 1vh;
+	padding-bottom: 2vh;
+	font-size: 3vw;
+}
+
+aside section#bottom {
+			width: 100%;
+			height: 10%;
+			border: solid black 10pt;
+			font-family: 'VT323', monospace;
+			background: yellow;
+			font-size: 3.5vw;
+			text-align: center;
+		}
+
+#myBtn {
+	font-size: 100%;
+	font-family: inherit;
+	border: 0;
+	padding: 0;
+	background: yellow;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  background-color: yellow;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  font-size: 20pt;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main{
+	width: 70%;
+	height: 100%;
+	background: white;
+	border: solid black 10pt;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+main section#lostnfound{
+			width: 80%;
+			height: 10%;
+			background: red;
+			border: solid black 10pt;
+			text-align: center;
+			font-family: 'VT323', monospace;
+			font-size: 3.5vw;
+			margin-top: 10vh;
+			margin-left: 6vw;
+		}
+main section#color{
+			width: 35%;
+			height: 10%;
+			background: yellow;
+			border: solid black 10pt;
+			text-align: center;
+			font-family: 'VT323', monospace;
+			font-size: 3.7vw;
+			margin-left: 6vw;
+		}
+main section#breed{
+			width: 35%;
+			height: 10%;
+			background: yellow;
+			border: solid black 10pt;
+			text-align: center;
+			font-family: 'VT323', monospace;
+			font-size: 3.7vw;
+			margin-left: 6vw;
+		}
+
+main section#size{
+			width: 35%;
+			height: 10%;
+			background: yellow;
+			border: solid black 10pt;
+			text-align: center;
+			font-family: 'VT323', monospace;
+			font-size: 3.7vw;
+			margin-left: 6vw;
+		}
+
+main section#name{
+			width: 35%;
+			height: 10%;
+			background: yellow;
+			border: solid black 10pt;
+			text-align: center;
+			font-family: 'VT323', monospace;
+			font-size: 3.7vw;
+			margin-left: 6vw;
+
+		}
+
+main section#countdown{
+			width: 80%;
+			height: 10%;
+			background: blue;
+			border: solid black 10pt;
+			text-align: center;
+			font-family: 'VT323', monospace;
+			font-size: 3.7vw;
+			margin-left: 6vw;
+		}
+
+</style>
+</head>
+<body>
+	<main>
+		<section id="lostnfound">WELCOME TO THE DOG LOST AND FOUND</section>
+		<section id="color">COLOR</section>
+		<section id="breed">BREED</section>
+		<section id="size">SIZE</section>
+		<section id="name">NAME</section>
+		<section id="size">SNACK</section>
+		<section id="name">TOY</section>
+		<section id="countdown">START</section>
+	</main>
+
+	<aside>
+		<section id="top"><img src="svg/20.svg"></section>
+		<section id="middle"> 
+			<p>CLUES</p>
+			<li>My dog is green.</li>
+			<li>His Favorite Snack is chocolate.</li>
+			<li>He loves tug of war.</li>
+		</section>
+		<section id="bottom">
+			<button id="myBtn">INSTRUCTION</button>
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<p>There are people lining up outside the shelter looking for their lost dog. The shelter closes in 20 mins, find their dog before the shelter closes. </p>
+
+					<p>The owner will give you clues. Use the dog classification system on the Left to find the dog, then drag to the blue box on the right to return them to their owner. </p>
+
+					<p>You have 20 minutes. Press start to begin.</p>
+				</div>
+			</div>
+<script>
+
+var modal = document.getElementById('myModal');
+
+var btn = document.getElementById("myBtn");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
+
