@@ -1,0 +1,823 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: black;
+}
+
+body {
+	background: linear-gradient(90deg, black, black, white, white);
+	background-size: 400% 400%;
+	animation: gradient 25s ease infinite;
+}
+
+@keyframes gradient 
+{
+	0%
+	{
+		background-position: 0% 50%; 
+	}
+
+	50% 
+	{
+		background-position: 100% 50%; 	
+	}
+
+	100% 
+	{
+		background-position: 0% 50%;
+	}
+}
+
+/* s=center c=circle*/
+
+/*sphere one*/
+
+.s1 {
+	position: absolute;
+	height: 1vh;
+	width: 1vh;
+	top: 16vh;
+	left: 25.5vw;
+	border-radius: 50%;
+	background: black;
+}
+
+.c1 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 10vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.1);
+}
+
+.c2 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 10vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(0, 255, 0, 0.1);
+}
+
+.c3 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 10vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 255, 0.1);
+}
+
+.c4 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 10vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.1);
+
+}
+
+.c5 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 10vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(0, 255, 0, 0.1);
+}
+
+.c6 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 10vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 255, 0.1);
+}
+
+
+
+/*sphere two*/
+
+.c7 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 10px white;
+	top: 30vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(143, 0, 255, 0.1);
+}
+
+.c8 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 10px white;
+	top: 30vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(143, 0, 255, 0.1);
+}
+
+.c9 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 10px white;
+	top: 30vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(143, 0, 255, 0.1);
+}
+
+.c10 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 10px white;
+	top: 30vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(143, 0, 255, 0.1);
+}
+
+.c11 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 10px white;
+	top: 30vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(143, 0, 255, 0.1);
+}
+
+.c12 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 10px white;
+	top: 30vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(143, 0, 255, 0.1);
+}
+
+/*sphere three*/
+
+.c13 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 50vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.2)
+}
+
+.c14 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 50vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.2)
+}
+
+.c15 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 50vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.2)
+}
+
+.c16 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 50vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.2)
+}
+
+.c17 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 50vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.2)
+}
+
+.c18 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 50vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.2)
+}
+
+
+
+/*sphere four*/
+
+.s2 {
+	position: absolute;
+	height: 1vh;
+	width: 1vh;
+	top: 76vh;
+	left: 25.5vw;
+	border-radius: 50%;
+	background: black;
+}
+
+.c19 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 70vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 255, 255, 0.2);
+}
+
+.c20 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 70vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 255, 255, 0.2);
+}
+
+.c21 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 70vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 255, 255, 0.2);
+}
+
+.c22 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 70vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 255, 255, 0.2);
+}
+
+.c23 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 70vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 255, 255, 0.2);
+}
+
+.c24 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 70vh;
+	left: 12.5vw;
+	transition: 2s;
+	background: rgb(255, 255, 255, 0.2);
+}
+
+/*sphere five*/
+
+.s3 {
+	position: absolute;
+	height: 1vh;
+	width: 1vh;
+	top: 16vh;
+	left: 75.5vw;
+	border-radius: 50%;
+	background: white;
+}
+
+.c25 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 10vh;
+	left: 62.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 0, 0.2);
+}
+
+.c26 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 10vh;
+	left: 62.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 0, 0.2);
+}
+
+.c27 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 10vh;
+	left: 62.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 0, 0.2);
+}
+
+.c28 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 10vh;
+	left: 62.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 0, 0.2);
+}
+
+.c29 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 10vh;
+	left: 62.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 0, 0.2);
+}
+
+.c30 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 10vh;
+	left: 62.5vw;
+	transition: 2s;
+	background: rgb(0, 0, 0, 0.2);
+}
+
+
+/*sphere six**/
+
+.c31 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 30vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(251, 255, 2, 0.1);
+}
+
+.c32 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 30vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(251, 255, 2, 0.1);
+}
+
+.c33 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 30vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(251, 255, 2, 0.1);
+}
+
+.c34 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 30vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(251, 255, 2, 0.1);
+}
+
+.c35 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 30vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(251, 255, 2, 0.1);
+}
+
+.c36 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 30vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(251, 255, 2, 0.1);
+}
+
+/*sphere seven*/
+
+.c37 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 50vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(2, 55, 255, 0.1);
+}
+
+.c38 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 50vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(2, 55, 255, 0.1);
+}
+
+
+.c39 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 50vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(2, 55, 255, 0.1);
+}
+
+
+.c40 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 50vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(2, 55, 255, 0.1);
+}
+
+
+
+.c41 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 50vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(2, 55, 255, 0.1);
+}
+
+
+.c42 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px black;
+	top: 50vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(2, 55, 255, 0.1);
+}
+
+/*sphere eight*/
+
+
+.c43 {
+	position: absolute;
+	transform: rotate(0deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 70vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(255, 0, 0, 0.2);
+
+}
+
+.c44 {
+	position: absolute;
+	transform: rotate(30deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 70vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(255, 166, 0, 0.2);
+}
+
+.c45 {
+	position: absolute;
+	transform: rotate(60deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 70vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(251, 255, 0, 0.2);
+}
+
+.c46 {
+	position: absolute;
+	transform: rotate(90deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 70vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(97, 255, 0, 0.2);
+}
+
+.c47 {
+	position: absolute;
+	transform: rotate(120deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 70vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(40, 196, 255, 0.2);
+}
+
+.c48 {
+	position: absolute;
+	transform: rotate(150deg) rotateY(80deg);
+	margin: 0;
+	padding: 0;
+	height: 13vh;
+	width: 13vh;
+	border-radius: 50%;
+	box-shadow: 3px 5px 5px 5px white;
+	top: 70vh;
+	left: 63.5vw;
+	transition: 2s;
+	background: rgb(182, 0, 255, 0.2);
+}
+
+.s4 {
+	position: absolute;
+	height: 1vh;
+	width: 1vh;
+	top: 76vh;
+	left: 76vw;
+	border-radius: 50%;
+	background: white;
+}
+
